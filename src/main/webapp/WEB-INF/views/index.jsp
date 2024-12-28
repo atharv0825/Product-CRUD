@@ -14,7 +14,7 @@
 				<table class="table table-striped">
 					<thead>
 						<tr>
-							<th scope="col">Sr No.</th>
+							<th scope="col">Product ID</th>
 							<th scope="col">Product</th>
 							<th scope="col">Description</th>
 							<th scope="col">Price</th>
@@ -24,7 +24,7 @@
 					<tbody>
 						<c:forEach items="${products}" var="p">
 							<tr>
-								<th scope="row">${p.product_id}</th>
+								<th scope="row">PT${p.product_id}</th>
 								<td>${p.name}</td>
 								<td>${p.description}</td>
 								<td class="font-weight-bold">&#8377;${p.price}</td>
